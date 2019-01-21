@@ -4,24 +4,25 @@ using UnityEngine;
 
  
 
-public class Test : MonoBehaviour {
+public class Oreo : MonoBehaviour {
 
     public GameObject m_Ao;
-    public GameObject m_Yu;
+    public GameObject m_Ao_up;
     public GameObject m_Li;
+    public Transform oreoP;
 
-    public List<GameObject> Aoliao = new List<GameObject>();
+
+    private List<GameObject> Aoliao = new List<GameObject>();
     // Use this for initialization
     void Start ()
     {
         Aoliao.Add(m_Ao);
-        Aoliao.Add(m_Yu);
-        Aoliao.Add(m_Yu);
-        Aoliao.Add(m_Li);
-        Aoliao.Add(m_Yu);
         Aoliao.Add(m_Li);
         Aoliao.Add(m_Li);
-        Aoliao.Add(m_Yu);
+        Aoliao.Add(m_Ao);
+        Aoliao.Add(m_Ao);
+        Aoliao.Add(m_Ao);
+        Aoliao.Add(m_Li);
         Aoliao.Add(m_Ao);
     }
 
@@ -32,9 +33,15 @@ public class Test : MonoBehaviour {
 
     void Apply()
     {
+        Quaternion qua = Quaternion.identity;
+
         for (int i = 0; i < Aoliao.Count; ++ i)
         {
-            Instantiate(Aoliao[i], new Vector3(0,i * 0.05f,0), Quaternion.identity);
+            if (i == Aoliao.Count - 1)
+            {
+                Aoliao[i] = m_Ao_up;
+            }
+            Instantiate(Aoliao[i], new Vector3(0,i * 0.03f,0), qua, oreoP);
         }
     }
     private void OnGUI()
