@@ -24,6 +24,7 @@ public class Oreo : MonoBehaviour {
         Aoliao.Add(m_Ao);
         Aoliao.Add(m_Li);
         Aoliao.Add(m_Ao);
+        Apply();
     }
 
     // Update is called once per frame
@@ -41,14 +42,14 @@ public class Oreo : MonoBehaviour {
             {
                 Aoliao[i] = m_Ao_up;
             }
-            Instantiate(Aoliao[i], new Vector3(0,i * 0.03f,0), qua, oreoP);
+            Instantiate(Aoliao[i], new Vector3(0,i * 0.1f,0), qua, oreoP);
         }
     }
     private void OnGUI()
     {
-        if (GUILayout.Button("Apply"))
-        {
-            Apply();
-        }
+        //if (GUILayout.Button("Apply"))
+        //{
+        //    Apply();
+        //}
     }
 }

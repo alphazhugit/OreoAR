@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MarkerlessUI1 : MonoBehaviour {
     //private VoidARBehaviour VoidAR;
@@ -16,10 +17,11 @@ public class MarkerlessUI1 : MonoBehaviour {
 
 	private string[] fileNames;
 	int selectIndex = -1;
-    public void OnBackHandler()
-    {
-        Application.LoadLevel("AllDemo");
-    }
+
+    //public void OnBackHandler()
+    //{
+    //    SceneManager.LoadScene("AllDemo");
+    //}
 
     public void startMarkerlessTracking() {
         VoidAR.GetInstance().startMarkerlessTracking();
@@ -36,7 +38,7 @@ public class MarkerlessUI1 : MonoBehaviour {
         }
         if (GUI.Button(new Rect(Screen.width - btnWidth, Screen.height - btnHeight, btnWidth, btnHeight), "返回菜单"))
         {
-            Application.LoadLevel("SampleScene");
+            SceneManager.LoadScene("OreoAR");
         }
 
     }

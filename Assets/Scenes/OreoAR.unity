@@ -225,7 +225,7 @@ Prefab:
       objectReference: {fileID: 31817745}
     - target: {fileID: 11415434, guid: be4dbdc846517b442a8490f26cefbf6b, type: 2}
       propertyPath: sceneScale
-      value: 0.05
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2018364, guid: be4dbdc846517b442a8490f26cefbf6b, type: 2}
       propertyPath: m_AllowMSAA
@@ -238,6 +238,10 @@ Prefab:
     - target: {fileID: 133350, guid: be4dbdc846517b442a8490f26cefbf6b, type: 2}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2018364, guid: be4dbdc846517b442a8490f26cefbf6b, type: 2}
+      propertyPath: near clip plane
+      value: 0.01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: be4dbdc846517b442a8490f26cefbf6b, type: 2}
@@ -339,7 +343,7 @@ Transform:
   m_GameObject: {fileID: 1366973058}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 31817746}
   m_RootOrder: 1
