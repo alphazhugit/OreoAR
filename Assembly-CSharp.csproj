@@ -81,7 +81,6 @@
     <Compile Include="Assets\VoidARDemo\Scripts\DynamicLoadTest.cs" />
     <Compile Include="Assets\VoidARDemo\Scripts\EnvironmentalLight.cs" />
     <Compile Include="Assets\VoidARDemo\Scripts\MarkerlessUI.cs" />
-    <Compile Include="Assets\VoidARDemo\Scripts\MarkerlessUI1.cs" />
     <Compile Include="Assets\VoidARDemo\Scripts\MenuItemEffect.cs" />
     <Compile Include="Assets\VoidARDemo\Scripts\RecordUI.cs" />
     <Compile Include="Assets\VoidARDemo\Scripts\VideoPlayButtonEffect.cs" />
