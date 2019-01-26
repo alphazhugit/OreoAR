@@ -23,7 +23,7 @@ public class Oreo : MonoBehaviour {
     {
         oreoP = new GameObject("oreoP");
         oreoP.transform.parent = GameObject.Find("Oreo").transform;
-        backCanvas.enabled = false;
+        backCanvas.enabled = true;
         settingCanvas.enabled = true;
         if (Aoliao.Count > 0)
         {
