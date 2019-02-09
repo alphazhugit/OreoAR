@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/VoidARDemo/Scenes/MarkerlessDemo.unity
     guid: a4bb90cfdb0914a51afaadaa72ad15f0
+  - enabled: 0
+    path: Assets/Scenes/tmp.unity
+    guid: e55cf843e15eab840906e69ad3a15355
   m_configObjects: {}

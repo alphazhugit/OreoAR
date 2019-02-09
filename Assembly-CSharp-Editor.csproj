@@ -66,6 +66,7 @@
     <Compile Include="Assets\Editor\VoidARBehaviourEditor.cs" />
     <Compile Include="Assets\Editor\VoidARBuildAssetBundleEditor.cs" />
     <Compile Include="Assets\Editor\VoidARSetupScript.cs" />
+    <Compile Include="Assets\Lean\Touch\Editor\LeanDocumentation.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>F:/Git/UnityProject/OreoAR/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>

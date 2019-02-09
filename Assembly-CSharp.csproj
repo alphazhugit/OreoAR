@@ -59,6 +59,39 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Lean\Touch\Examples\Scripts\LeanCameraMove.cs" />
+    <Compile Include="Assets\Lean\Touch\Examples\Scripts\LeanCameraZoom.cs" />
+    <Compile Include="Assets\Lean\Touch\Examples\Scripts\LeanCanvasArrow.cs" />
+    <Compile Include="Assets\Lean\Touch\Examples\Scripts\LeanDestroy.cs" />
+    <Compile Include="Assets\Lean\Touch\Examples\Scripts\LeanFingerData.cs" />
+    <Compile Include="Assets\Lean\Touch\Examples\Scripts\LeanFingerDown.cs" />
+    <Compile Include="Assets\Lean\Touch\Examples\Scripts\LeanFingerHeld.cs" />
+    <Compile Include="Assets\Lean\Touch\Examples\Scripts\LeanFingerLine.cs" />
+    <Compile Include="Assets\Lean\Touch\Examples\Scripts\LeanFingerSet.cs" />
+    <Compile Include="Assets\Lean\Touch\Examples\Scripts\LeanFingerSwipe.cs" />
+    <Compile Include="Assets\Lean\Touch\Examples\Scripts\LeanFingerTap.cs" />
+    <Compile Include="Assets\Lean\Touch\Examples\Scripts\LeanFingerTrail.cs" />
+    <Compile Include="Assets\Lean\Touch\Examples\Scripts\LeanFingerUp.cs" />
+    <Compile Include="Assets\Lean\Touch\Examples\Scripts\LeanOpenUrl.cs" />
+    <Compile Include="Assets\Lean\Touch\Examples\Scripts\LeanPath.cs" />
+    <Compile Include="Assets\Lean\Touch\Examples\Scripts\LeanPlane.cs" />
+    <Compile Include="Assets\Lean\Touch\Examples\Scripts\LeanRotate.cs" />
+    <Compile Include="Assets\Lean\Touch\Examples\Scripts\LeanRotateCustomAxis.cs" />
+    <Compile Include="Assets\Lean\Touch\Examples\Scripts\LeanScale.cs" />
+    <Compile Include="Assets\Lean\Touch\Examples\Scripts\LeanScreenDepth.cs" />
+    <Compile Include="Assets\Lean\Touch\Examples\Scripts\LeanSelect.cs" />
+    <Compile Include="Assets\Lean\Touch\Examples\Scripts\LeanSelectable.cs" />
+    <Compile Include="Assets\Lean\Touch\Examples\Scripts\LeanSelectableBehaviour.cs" />
+    <Compile Include="Assets\Lean\Touch\Examples\Scripts\LeanSelectableGraphicColor.cs" />
+    <Compile Include="Assets\Lean\Touch\Examples\Scripts\LeanSelectableRendererColor.cs" />
+    <Compile Include="Assets\Lean\Touch\Examples\Scripts\LeanSelectableSpriteRendererColor.cs" />
+    <Compile Include="Assets\Lean\Touch\Examples\Scripts\LeanSpawnAt.cs" />
+    <Compile Include="Assets\Lean\Touch\Examples\Scripts\LeanTouchEvents.cs" />
+    <Compile Include="Assets\Lean\Touch\Examples\Scripts\LeanTranslate.cs" />
+    <Compile Include="Assets\Lean\Touch\Scripts\LeanFinger.cs" />
+    <Compile Include="Assets\Lean\Touch\Scripts\LeanGesture.cs" />
+    <Compile Include="Assets\Lean\Touch\Scripts\LeanSnapshot.cs" />
+    <Compile Include="Assets\Lean\Touch\Scripts\LeanTouch.cs" />
     <Compile Include="Assets\Scripts\Oreo.cs" />
     <Compile Include="Assets\Scripts\VoidArControl.cs" />
     <Compile Include="Assets\VoidAR\Scripts\CloudController.cs" />
@@ -86,11 +119,15 @@
     <Compile Include="Assets\VoidARDemo\Scripts\VideoPlayButtonEffect.cs" />
     <Compile Include="Assets\VoidARDemo\Scripts\VideoPlayerController.cs" />
     <Compile Include="Assets\VoidARDemo\Scripts\VideoProgressBar.cs" />
+    <None Include="Assets\Lean\Touch\Examples\Fonts\OFL.txt" />
     <None Include="Assets\VoidAR\Shaders\YUV420Shader.shader" />
     <None Include="Assets\link.xml" />
     <None Include="Assets\VoidARDemo\Models\Ciconia Studio\Shaders\Double Sided Shaders\Double Sided Transparent Diffuse Bump Cutout.shader" />
     <None Include="Assets\VoidAR\Shaders\VideoShader.shader" />
+    <None Include="Assets\Lean\Touch\Examples\Shaders\Skybox.shader" />
+    <None Include="Assets\Lean\Touch\Examples\Shaders\Object.shader" />
     <None Include="Assets\VoidAR\Shaders\RotateAnim.shader" />
+    <None Include="Assets\Lean\READ ME.txt" />
     <None Include="Assets\VoidAR\Shaders\BackgroundShader.shader" />
     <None Include="Assets\VoidARDemo\Models\Matt.shader" />
     <Reference Include="UnityEditor.StandardEvents">
