@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Oreo : MonoBehaviour {
 
@@ -12,7 +13,8 @@ public class Oreo : MonoBehaviour {
     public Canvas backCanvas;
 
     private List<GameObject> Aoliao = new List<GameObject>();
-    VoidArControl arcontrol = new VoidArControl();
+    //VoidArControl arcontrol = new VoidArControl();
+
 
     void Start()
     {
@@ -45,12 +47,14 @@ public class Oreo : MonoBehaviour {
                 }
                 Instantiate(Aoliao[i], new Vector3(0, i * 0.1f, 0), qua, oreoP.transform);
             }
+
+            settingCanvas.enabled = false;
+            backCanvas.enabled = true;
+
+            VoidAR.GetInstance().startMarkerlessTracking();
         }
 
-        settingCanvas.enabled = false;
-        backCanvas.enabled = true;
 
-        arcontrol.startMarkerlessTracking();
     }
 
     public void Add_Ao()
@@ -69,5 +73,6 @@ public class Oreo : MonoBehaviour {
             Destroy(oreoP);
             Init();
         }
+        SceneManager.LoadSceneAsync(1);
     }
 }

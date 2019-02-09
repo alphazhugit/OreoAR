@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SplashVideoScript : MonoBehaviour {
 	void Awake () {
@@ -8,7 +9,7 @@ public class SplashVideoScript : MonoBehaviour {
     }
 
     void OnEnd(VoidAREvent evt) {
-        Application.LoadLevel(1);
+        SceneManager.LoadScene(1);
     }
 
     void OnReady(VoidAREvent evt) {
