@@ -29,6 +29,8 @@ namespace Lean.Touch
             oreoP = new GameObject("oreoP");
 
             var leanScale = oreoP.AddComponent<LeanScale>();
+            //var leanRotate = oreoP.AddComponent<LeanRotateCustomAxis>();
+
             leanScale.ScaleClamp = true;
             leanScale.ScaleMin = new Vector3(0.5f, 0.5f, 0.5f);
             leanScale.ScaleMax = new Vector3(3.0f, 3.0f, 3.0f);
@@ -83,8 +85,8 @@ namespace Lean.Touch
             {
                 Destroy(oreoP);
                 Init();
+                SceneManager.LoadScene(1);
             }
-            SceneManager.LoadSceneAsync(1);
         }
     }
 
