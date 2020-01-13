@@ -6,15 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/VoidARDemo/Scenes/SplashVideo.unity
-    guid: 04a1a8b3dfd586a48a3a7fdca04fbebe
-  - enabled: 1
     path: Assets/Scenes/OreoAR.unity
     guid: 13372e08d72e43849958e40ad43c8cb6
-  - enabled: 0
-    path: Assets/VoidARDemo/Scenes/MarkerlessDemo.unity
-    guid: a4bb90cfdb0914a51afaadaa72ad15f0
-  - enabled: 0
-    path: Assets/Scenes/tmp.unity
-    guid: e55cf843e15eab840906e69ad3a15355
   m_configObjects: {}

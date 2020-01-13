@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IncrementalBankBuild Version="6" Flags="861300542">
+	<Platform GUID="{6B2F276A-3987-44F9-BC2A-6E01FC0CAED7}">
+		<Banks>
+			<Language ID="393239870">
+				<File Name="Init" Hash="1182415902" Timestamp="1578930981"/>
+				<File Name="Oreo_SoundBank" Hash="163961384" Timestamp="1578930981"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="-1">
+				<File Name="" Hash="1548603649" Timestamp="1578930981"/>
+			</Language>
+		</XMLInfo>
+	</Platform>
+	<Platform GUID="{5ECE1755-362D-46D4-85FE-E815A5C457FC}">
+		<Banks>
+			<Language ID="393239870">
+				<File Name="Init" Hash="2279659568" Timestamp="1578930981"/>
+				<File Name="Oreo_SoundBank" Hash="163961384" Timestamp="1578930981"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="-1">
+				<File Name="" Hash="350570811" Timestamp="1578930981"/>
+			</Language>
+		</XMLInfo>
+	</Platform>
+	<Platform GUID="{868388EE-3C67-4FD0-BA9C-6FFFE30058B9}">
+		<Banks>
+			<Language ID="393239870">
+				<File Name="Init" Hash="3629367326" Timestamp="1578926620"/>
+				<File Name="Oreo_SoundBank" Hash="163961384" Timestamp="1578926620"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="-1">
+				<File Name="" Hash="1883571919" Timestamp="1578926620"/>
+			</Language>
+		</XMLInfo>
+	</Platform>
+</IncrementalBankBuild>

@@ -16,7 +16,10 @@ namespace Lean.Touch
         public Canvas backCanvas;
 
         private List<GameObject> Aoliao = new List<GameObject>();
-        //VoidArControl arcontrol = new VoidArControl();
+
+        private string eventO = "Play_O";
+        private string eventL = "Play_L";
+        private string BankName = "Oreo_SoundBank";
 
 
         void Start()
@@ -44,6 +47,8 @@ namespace Lean.Touch
             {
                 Aoliao.Clear();
             }
+
+            LoadSoundBank();
         }
 
         public void Apply()
@@ -66,18 +71,19 @@ namespace Lean.Touch
 
                 VoidAR.GetInstance().startMarkerlessTracking();
             }
-
-
         }
 
         public void Add_Ao()
         {
             Aoliao.Add(m_Ao);
+            PostEvent(eventO);
         }
 
         public void Add_Li()
         {
             Aoliao.Add(m_Li);
+            PostEvent(eventL);
+
         }
         public void Reset()
         {
@@ -86,8 +92,28 @@ namespace Lean.Touch
                 Destroy(oreoP);
                 Init();
                 SceneManager.LoadScene(1);
+                UnLoadSoundBank();
             }
         }
-    }
 
+        void LoadSoundBank()
+        {
+            AkBankManager.LoadBank(BankName, false, false);
+        }
+
+        void UnLoadSoundBank()
+        {
+            AkBankManager.UnloadBank(BankName);
+        }
+
+        void PostEvent(string eventname)
+        {
+            AkSoundEngine.PostEvent(eventname, gameObject);
+        }
+
+        void StopAll()
+        {
+            AkSoundEngine.StopAll();
+        }
+    }
 }

@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: Assembly-CSharp-Editor::AkWwiseProjectData
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: f5344a557e186540bbc3cda816d5cfe3
+    GuidInternal: 
+    m_lastTime: -8586227666229506307
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 668611ed3e0c23419b326e1b79bd8e6a
+    GuidInternal: 
+    m_lastTime: -8586227666229016965
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 1e80fabd79551e40899c0aa6c38275dd
+    GuidInternal: 
+    m_lastTime: -8586226802595055018
+    List:
+    - name: Oreo_SoundBank
+      guid: 95a2b95b79d2814c8ca6b459509e9279
+      id: 1470470104
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Oreo_SoundBank
+        ObjectType: 7
+      Path: Default Work Unit\Oreo_SoundBank
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 017c27f6b2eb6d48a44f120ba5a7fc31
+    GuidInternal: 
+    m_lastTime: -8586226802595014761
+    List:
+    - name: Play_L
+      guid: ccc45faebced024faa81cd960f675eab
+      id: 1774091802
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_L
+        ObjectType: 3
+      Path: Default Work Unit\Play_L
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_O
+      guid: 6658ae7d7e8e1348817fdc7ad09627ee
+      id: 1774091801
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_O
+        ObjectType: 3
+      Path: Default Work Unit\Play_O
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 631719d87f94ab4c8c693d28a315b177
+    GuidInternal: 
+    m_lastTime: -8586227666228966991
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 74b94f6e8f13324b86280835989706f6
+    GuidInternal: 
+    m_lastTime: -8586227666229076935
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: e6a94acbb5d19d4995ea7828c8055a3f
+    GuidInternal: 
+    m_lastTime: -8586227666228986982
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 4daae7fd3973a2429cd90618f2cc113b
+    GuidInternal: 
+    m_lastTime: -8586227666229306715
+    List: []
+  ExpandedItems:
+  - /OreoAR_WwiseProject
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 

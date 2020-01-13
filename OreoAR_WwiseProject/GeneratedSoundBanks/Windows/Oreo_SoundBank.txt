@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1774091801	Play_O			\Default Work Unit\Play_O	
+	1774091802	Play_L			\Default Work Unit\Play_L	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	257931159	ooo	F:\Git\UnityProject\OreoAR\OreoAR_WwiseProject\.cache\Windows\SFX\ooo_9D0E2A85.wem		\Actor-Mixer Hierarchy\Default Work Unit\ooo		19284
+	886505749	lll	F:\Git\UnityProject\OreoAR\OreoAR_WwiseProject\.cache\Windows\SFX\lll_9D0E2A85.wem		\Actor-Mixer Hierarchy\Default Work Unit\lll		19284
+

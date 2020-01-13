@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F6277C01-EBB2-486D-A44F-120BA5A7FC31}" SchemaVersion="94">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{F6277C01-EBB2-486D-A44F-120BA5A7FC31}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_O" ID="{7DAE5866-8E7E-4813-817F-DC7AD09627EE}">
+					<ChildrenList>
+						<Action Name="" ID="{C80E7516-3C50-41EF-9E50-6C7E0ED4CE26}" ShortID="693414221">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ooo" ID="{3DEC915E-6D58-459A-B87A-05D9578DEB36}" WorkUnitID="{75EC57E2-9FFB-4007-9E95-9CC2F5C73D7D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_L" ID="{AE5FC4CC-EDBC-4F02-AA81-CD960F675EAB}">
+					<ChildrenList>
+						<Action Name="" ID="{9E9D1691-2777-432D-A56C-BBF46B975E67}" ShortID="1002747843">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="lll" ID="{CDC25EC3-D21E-46F8-B026-69D250927206}" WorkUnitID="{75EC57E2-9FFB-4007-9E95-9CC2F5C73D7D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

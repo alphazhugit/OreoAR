@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>F:\Git\UnityProject\OreoAR\OreoAR_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>F:\Git\UnityProject\OreoAR\OreoAR_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>F:\Git\UnityProject\OreoAR\OreoAR_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>F:\Git\UnityProject\OreoAR\OreoAR_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1470470104" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Oreo_SoundBank</ObjectPath>
+			<ShortName>Oreo_SoundBank</ShortName>
+			<Path>Oreo_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1774091802" Name="Play_L" ObjectPath="\Events\Default Work Unit\Play_L" DurationType="OneShot" DurationMin="0.200208" DurationMax="0.200208"/>
+				<Event Id="1774091801" Name="Play_O" ObjectPath="\Events\Default Work Unit\Play_O" DurationType="OneShot" DurationMin="0.200208" DurationMax="0.200208"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="257931159" Language="SFX">
+					<ShortName>ooo.wav</ShortName>
+					<Path>SFX\ooo_9D0E2A85.wem</Path>
+				</File>
+				<File Id="886505749" Language="SFX">
+					<ShortName>lll.wav</ShortName>
+					<Path>SFX\lll_9D0E2A85.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

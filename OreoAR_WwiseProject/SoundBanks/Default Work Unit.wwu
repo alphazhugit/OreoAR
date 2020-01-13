@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BDFA801E-5579-401E-899C-0AA6C38275DD}" SchemaVersion="94">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{BDFA801E-5579-401E-899C-0AA6C38275DD}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Oreo_SoundBank" ID="{5BB9A295-D279-4C81-8CA6-B459509E9279}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_O" ID="{7DAE5866-8E7E-4813-817F-DC7AD09627EE}" WorkUnitID="{F6277C01-EBB2-486D-A44F-120BA5A7FC31}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_L" ID="{AE5FC4CC-EDBC-4F02-AA81-CD960F675EAB}" WorkUnitID="{F6277C01-EBB2-486D-A44F-120BA5A7FC31}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

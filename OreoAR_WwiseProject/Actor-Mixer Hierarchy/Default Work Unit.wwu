@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{75EC57E2-9FFB-4007-9E95-9CC2F5C73D7D}" SchemaVersion="94">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{75EC57E2-9FFB-4007-9E95-9CC2F5C73D7D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="lll" ID="{CDC25EC3-D21E-46F8-B026-69D250927206}" ShortID="155238633">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="PCM Auto Detect High" ID="{103058FA-B09E-42AF-A6BA-B711CD85E365}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED118666-0C3E-4123-9B32-6E1B79BD8E6A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="lll" ID="{57931409-A92A-4687-B26D-E6F33C1CECC1}" ShortID="886505749">
+							<Language>SFX</Language>
+							<AudioFile>lll.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="lll" ID="{57931409-A92A-4687-B26D-E6F33C1CECC1}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="ooo" ID="{3DEC915E-6D58-459A-B87A-05D9578DEB36}" ShortID="413848061">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="PCM Auto Detect High" ID="{103058FA-B09E-42AF-A6BA-B711CD85E365}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED118666-0C3E-4123-9B32-6E1B79BD8E6A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ooo" ID="{2674B2EF-C3D4-45AD-A182-522FC064497E}" ShortID="257931159">
+							<Language>SFX</Language>
+							<AudioFile>ooo.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ooo" ID="{2674B2EF-C3D4-45AD-A182-522FC064497E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
