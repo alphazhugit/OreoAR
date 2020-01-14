@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -6,7 +7,6 @@ namespace Lean.Touch
 {
     public class Oreo : MonoBehaviour
     {
-
         public GameObject m_Ao;
         public GameObject m_Ao_up;
         public GameObject m_Li;
@@ -20,6 +20,9 @@ namespace Lean.Touch
         private string eventO = "Play_O";
         private string eventL = "Play_L";
         private string BankName = "Oreo_SoundBank";
+
+        List<string> eventList = new List<string>();
+
 
 
         void Start()
@@ -56,15 +59,19 @@ namespace Lean.Touch
             if (Aoliao.Count > 0)
             {
                 Quaternion qua = Quaternion.identity;
-
+                IEnumerator coroutine;
                 for (int i = 0; i < Aoliao.Count; ++i)
                 {
                     if (i == Aoliao.Count - 1 && Aoliao[i] == m_Ao)
                     {
                         Aoliao[i] = m_Ao_up;
                     }
-                    Instantiate(Aoliao[i], new Vector3(0, i * 0.1f, 0), qua, oreoP.transform);
+                    var oreoIns = Instantiate(Aoliao[i], new Vector3(0, i * 0.1f, 0), qua, oreoP.transform);
+                    var oreoEventName = oreoIns.GetComponent<OreoEventName>().eventName;
+                    eventList.Add(oreoEventName);
                 }
+                coroutine = PlayAllOreoAudio(0.15f);
+                StartCoroutine(coroutine);
 
                 settingCanvas.enabled = false;
                 backCanvas.enabled = true;
@@ -73,16 +80,26 @@ namespace Lean.Touch
             }
         }
 
+        IEnumerator PlayAllOreoAudio(float waittime)
+        {
+            foreach (string s in eventList)
+            {
+                yield return new WaitForSeconds(waittime);
+                OreoPostEvent(s);
+                print("WaitAndPrint " + Time.time + s);
+            }
+        }
+
         public void Add_Ao()
         {
             Aoliao.Add(m_Ao);
-            PostEvent(eventO);
+            OreoPostEvent(eventO);
         }
 
         public void Add_Li()
         {
             Aoliao.Add(m_Li);
-            PostEvent(eventL);
+            OreoPostEvent(eventL);
 
         }
         public void Reset()
@@ -106,7 +123,7 @@ namespace Lean.Touch
             AkBankManager.UnloadBank(BankName);
         }
 
-        void PostEvent(string eventname)
+        void OreoPostEvent(string eventname)
         {
             AkSoundEngine.PostEvent(eventname, gameObject);
         }

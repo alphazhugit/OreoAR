@@ -87,6 +87,7 @@
      <Compile Include="Assets\Lean\Touch\Scripts\LeanSnapshot.cs" />
      <Compile Include="Assets\Lean\Touch\Scripts\LeanTouch.cs" />
      <Compile Include="Assets\Scripts\Oreo.cs" />
+     <Compile Include="Assets\Scripts\OreoEventName.cs" />
      <Compile Include="Assets\Scripts\VoidArControl.cs" />
      <Compile Include="Assets\VoidAR\Scripts\CloudController.cs" />
      <Compile Include="Assets\VoidAR\Scripts\DynamicLoadHelp.cs" />
