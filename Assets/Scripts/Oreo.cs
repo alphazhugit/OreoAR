@@ -41,8 +41,6 @@ namespace Lean.Touch
             leanScale.ScaleMin = new Vector3(0.5f, 0.5f, 0.5f);
             leanScale.ScaleMax = new Vector3(3.0f, 3.0f, 3.0f);
 
-
-
             oreoP.transform.parent = GameObject.Find("Oreo").transform;
             backCanvas.enabled = true;
             settingCanvas.enabled = true;
@@ -110,6 +108,7 @@ namespace Lean.Touch
                 Init();
                 SceneManager.LoadScene(1);
                 UnLoadSoundBank();
+                eventList.Clear();
             }
         }
 
